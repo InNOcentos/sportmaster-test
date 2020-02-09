@@ -649,7 +649,7 @@ body {
 .recommendation-slider-elem *:hover .recommendation-slider-link_inner::before {
     display: block;
 }
-.recommendation-slider-link:hover + a {
+.recommendation-slider-link:hover .buy-link{
     display: flex;
     align-items: center;
     justify-content: center;
