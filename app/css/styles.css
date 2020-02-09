@@ -786,7 +786,12 @@ body {
         line-height: 18px;
         letter-spacing: -0.59px;
     }
-    
+    .recommendation-slider-elem {
+        display: flex;
+    }
+    .slick-slide {
+        padding: 0;
+    }
 }
 
 
