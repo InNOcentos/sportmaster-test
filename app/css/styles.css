@@ -714,7 +714,7 @@ body {
     left: 0;
     background-color: #242be5;
     width: 30px;
-    height: 100px;
+    height: 80px;
 }
 
 .recommendations-slider .slick-arrow.slick-prev::before {
@@ -769,8 +769,16 @@ body {
     transform: translate(-50%,-50%);
     position: absolute;
 }
-
-
+@media screen and (min-width: 993px) {
+    .recommendations-slider .slick-arrow.slick-prev {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .recommendation-slider-elem *:hover .recommendation-slider-link_inner::before {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .recommendations-heading h2 {
@@ -778,6 +786,7 @@ body {
         line-height: 18px;
         letter-spacing: -0.59px;
     }
+    
 }
 
 
