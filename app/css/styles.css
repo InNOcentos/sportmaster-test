@@ -778,6 +778,7 @@ body {
     .recommendation-slider-elem *:hover .recommendation-slider-link_inner::before {
         display: none;
     }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -791,6 +792,15 @@ body {
     }
     .slick-slide {
         padding: 0;
+    }
+    .recommendation-slider-link_inner h5,
+    .recommendation-slider-link_inner b{
+    transform: translate(0,-40px);
+    transition: ease-in .1s;
+    }
+    .buy-link {
+        display: block;
+        padding: 10px;
     }
 }
 
